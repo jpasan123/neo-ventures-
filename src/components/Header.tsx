@@ -22,10 +22,10 @@ const Header = () => {
     <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <img 
-            src="https://i.ibb.co/nsxznWGF/pixelcut-export.png" 
-            alt="Neo Ventures Logo" 
-            className="h-16 w-auto sm:h-20 md:h-28 lg:h-32 object-contain" // Increased sizes for better visibility
+        <img 
+  src="https://i.ibb.co/YBX0PzTd/466794013-122095479950624948-5743911692005365691-n.jpg" 
+  alt="Neo Ventures Logo" 
+  className="h-10 w-32 sm:h-10 sm:w-32 md:h-18 md:w-48 lg:h-18 lg:w-40 object-cover rounded-lg" // Added fixed widths and border radius
           />
         </div>
 
