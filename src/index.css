@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.slick-dots li button:before {
+  color: #0F4C81 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #F2A900 !important;
+}
+
+.hero-slider .slick-slide {
+  padding: 0;
+}
+
+.hero-slider .slick-dots {
+  bottom: 25px;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #0F4C81 0%, #16A085 100%);
+}
+
+.btn-primary {
+  @apply bg-primary text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-primary-dark transition-all duration-300 transform hover:scale-105;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-dark font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-secondary-dark transition-all duration-300 transform hover:scale-105;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold mb-6 text-primary;
+}
+
+.card {
+  @apply bg-white rounded-xl shadow-lg p-6 transition-all duration-300 hover:shadow-xl;
+}
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+  
+  body {
+    @apply overflow-x-hidden;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn-primary, .btn-secondary {
+    @apply inline-block rounded-lg transition-all duration-300 text-center;
+  }
+}
