@@ -20,7 +20,7 @@ const ContactSection = () => {
             </div>
             <h3 className="text-xl font-bold text-primary group-hover:text-white transition-colors mb-2">Email Us</h3>
             <a href="mailto:info@neoventures.lk" className="text-gray-700 group-hover:text-white transition-colors hover:underline">
-              info@neoventures.lk
+            keerthi@effectivesolutions.lk
             </a>
           </div>
 
@@ -29,8 +29,8 @@ const ContactSection = () => {
               <FaPhone className="text-4xl text-secondary group-hover:text-white transition-colors" />
             </div>
             <h3 className="text-xl font-bold text-primary group-hover:text-white transition-colors mb-2">Call Us</h3>
-            <a href="tel:+94112345678" className="text-gray-700 group-hover:text-white transition-colors hover:underline">
-              +94 11 234 5678
+            <a href="tel:076 621 0120" className="text-gray-700 group-hover:text-white transition-colors hover:underline">
+              076 621 0120
             </a>
           </div>
 
