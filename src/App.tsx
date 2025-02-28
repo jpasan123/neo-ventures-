@@ -3,7 +3,7 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import BenefitsSection from './components/BenefitsSection';
-// import MentorsSection from './components/MentorsSection';
+import MentorsSection from './components/MentorsSection';
 import RegisterSection from './components/RegisterSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
@@ -15,7 +15,7 @@ function App() {
       <HeroSection />
       <AboutSection />
       <BenefitsSection />
-      {/* <MentorsSection /> */}
+      <MentorsSection />
       <RegisterSection />
       <ContactSection />
       <Footer />

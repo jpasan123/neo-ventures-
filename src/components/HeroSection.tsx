@@ -59,13 +59,13 @@ const HeroSection = () => {
                   <p className="text-lg sm:text-xl md:text-2xl mb-8 max-w-3xl mx-auto">{slide.subtitle}</p>
                   
                   <div className="flex justify-center mb-8">
-                    <div className="bg-white p-3 sm:p-4 rounded-lg shadow-lg inline-block">
+                    <div className="bg-white p-4 sm:p-5 rounded-lg shadow-lg inline-block">
                       <img 
                         src="https://i.ibb.co/prKdFcjw/Whats-App-Image-2025-02-27-at-10-55-59-951ade66.jpg" 
                         alt="Registration QR Code" 
-                        className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-contain"
+                        className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 object-contain" // Increased sizes
                       />
-                      <p className="text-primary text-xs sm:text-sm font-medium mt-2">Scan to Register</p>
+                      <p className="text-primary text-sm sm:text-base font-medium mt-2">Scan to Register</p>
                     </div>
                   </div>
                   
