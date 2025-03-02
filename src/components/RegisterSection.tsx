@@ -82,7 +82,7 @@ const RegisterSection = () => {
               </div>
               <div className="flex items-center gap-3">
                 <FaMapMarkerAlt className="text-secondary text-xl" />
-                <p>Venue: <strong>TRACE Expert City, Colombo</strong></p>
+                <p>Venue: <strong>NIBM City University</strong></p>
               </div>
             </div>
           </div>

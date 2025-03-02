@@ -40,7 +40,7 @@ const ContactSection = () => {
             </div>
             <h3 className="text-xl font-bold text-primary group-hover:text-white transition-colors mb-2">Visit Us</h3>
             <p className="text-gray-700 group-hover:text-white transition-colors">
-              TRACE Expert City, Colombo
+              NIBM City University
             </p>
           </div>
         </div>
