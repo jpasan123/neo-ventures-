@@ -57,8 +57,7 @@ const Footer = () => {
             <div className="mt-4">
               <h4 className="text-lg font-semibold mb-2">Organizers</h4>
               <ul className="space-y-1 text-gray-400">
-                <li>NIBM</li>
-                <li>The City University</li>
+                <li>NIBM The City University</li>
                 <li>TRACE Expert City</li>
               </ul>
             </div>

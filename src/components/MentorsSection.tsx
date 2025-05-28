@@ -4,7 +4,7 @@ const MentorsSection = () => {
   const mentors = [
     {
       name: "Keerthi Kodithuwakku",
-      position: "Chief executive officer at EffectiveSolution & jendo innovations",
+      position: "Chief Executive Officer at EffectiveSolutions & Jendo Innovations",
       expertise: "Startup & Innovation Expert",
       image: "https://i.ibb.co/YF1gGnVS/464475539-8493908874024053-2062765657774756386-n-1.jpg",
       linkedin: "https://www.bing.com/search?pglt=299&q=keerthii+kodithuwakku+linklindn&cvid=009732158c774783bff03f82cecfc02c&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOdIBCDk2MzlqMGoxqAIIsAIB&FORM=ANNTA1&PC=ASTS",

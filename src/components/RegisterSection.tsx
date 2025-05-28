@@ -70,7 +70,7 @@ const RegisterSection = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-semibold">Submit your application</h4>
-                  <p className="text-white/80">Before 31st March 2025</p>
+                  <p className="text-white/80">Before 31st June 2025</p>
                 </div>
               </div>
             </div>
@@ -78,7 +78,7 @@ const RegisterSection = () => {
             <div className="mt-8 space-y-4">
               <div className="flex items-center gap-3">
                 <FaCalendarAlt className="text-secondary text-xl" />
-                <p>Application Deadline: <strong>31st March 2025</strong></p>
+                <p>Application Deadline: <strong>31st June 2025</strong></p>
               </div>
               <div className="flex items-center gap-3">
                 <FaMapMarkerAlt className="text-secondary text-xl" />
