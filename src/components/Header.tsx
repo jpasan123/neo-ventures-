@@ -31,10 +31,10 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#home" className={`${isScrolled ? 'text-blue-600' : 'text-yellow-500'} hover:text-secondary font-medium transition-colors`}>Home</a>
-          <a href="#about" className={`${isScrolled ? 'text-blue-600' : 'text-yellow-500'} hover:text-secondary font-medium transition-colors`}>About</a>
-          <a href="#benefits" className={`${isScrolled ? 'text-blue-600' : 'text-yellow-500'} hover:text-secondary font-medium transition-colors`}>Benefits</a>
-          <a href="#mentors" className={`${isScrolled ? 'text-blue-600' : 'text-yellow-500'} hover:text-secondary font-medium transition-colors`}>Mentors</a>
+          <a href="#home" className={`${isScrolled ? 'text-gray-800' : 'text-white'} hover:text-yellow-500 font-medium transition-colors`}>Home</a>
+          <a href="#about" className={`${isScrolled ? 'text-gray-800' : 'text-white'} hover:text-yellow-500 font-medium transition-colors`}>About</a>
+          <a href="#benefits" className={`${isScrolled ? 'text-gray-800' : 'text-white'} hover:text-yellow-500 font-medium transition-colors`}>Benefits</a>
+          <a href="#mentors" className={`${isScrolled ? 'text-gray-800' : 'text-white'} hover:text-yellow-500 font-medium transition-colors`}>Mentors</a>
           <a href="#register" className={`btn-primary ${isScrolled ? 'bg-blue-600' : 'bg-yellow-500'} text-white px-4 py-2 rounded-lg`}>Register Now</a>
         </nav>
 
@@ -53,28 +53,28 @@ const Header = () => {
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <a 
               href="#home" 
-              className={`${isScrolled ? 'text-blue-600' : 'text-yellow-500'} hover:text-secondary font-medium transition-colors py-2`}
+              className={`${isScrolled ? 'text-gray-800' : 'text-gray-800'} hover:text-yellow-500 font-medium transition-colors py-2`}
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </a>
             <a 
               href="#about" 
-              className={`${isScrolled ? 'text-blue-600' : 'text-yellow-500'} hover:text-secondary font-medium transition-colors py-2`}
+              className={`${isScrolled ? 'text-gray-800' : 'text-gray-800'} hover:text-yellow-500 font-medium transition-colors py-2`}
               onClick={() => setIsMenuOpen(false)}
             >
               About
             </a>
             <a 
               href="#benefits" 
-              className={`${isScrolled ? 'text-blue-600' : 'text-yellow-500'} hover:text-secondary font-medium transition-colors py-2`}
+              className={`${isScrolled ? 'text-gray-800' : 'text-gray-800'} hover:text-yellow-500 font-medium transition-colors py-2`}
               onClick={() => setIsMenuOpen(false)}
             >
               Benefits
             </a>
             <a 
               href="#mentors" 
-              className={`${isScrolled ? 'text-blue-600' : 'text-yellow-500'} hover:text-secondary font-medium transition-colors py-2`}
+              className={`${isScrolled ? 'text-gray-800' : 'text-gray-800'} hover:text-yellow-500 font-medium transition-colors py-2`}
               onClick={() => setIsMenuOpen(false)}
             >
               Mentors
