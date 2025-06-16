@@ -45,61 +45,63 @@ const MentorsSection = () => {
   ];
 
   return (
-    <section id="mentors" className="py-20 bg-light">
+    <section id="mentors" className="py-12 sm:py-16 md:py-20 bg-light">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="section-title">Meet Your Mentors & Experts</h2>
-          <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+        <div className="text-center mb-8 sm:mb-12 md:mb-16">
+          <h2 className="section-title text-2xl sm:text-3xl md:text-4xl">Meet Your Mentors & Experts</h2>
+          <p className="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto mt-4">
             Learn from industry leaders who have successfully built and scaled startups.
             Our mentors will guide you through every step of your entrepreneurial journey.
           </p>
         </div>
 
-        {/* Updated container and card styles */}
-        <div className="flex flex-nowrap justify-center items-stretch gap-4 md:gap-6 lg:gap-8">
-          {mentors.map((mentor, index) => (
-            <div key={index} className="card overflow-hidden group w-40 sm:w-44 md:w-48 lg:w-52 flex-shrink-0 flex flex-col">
-              <div className="relative overflow-hidden rounded-lg mb-3">
-                <img 
-                  src={mentor.image} 
-                  alt={mentor.name} 
-                  className="w-full h-40 sm:h-44 md:h-48 lg:h-52 object-cover object-center transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-primary opacity-0 group-hover:opacity-70 transition-opacity duration-300 flex items-center justify-center">
-                  <div className="flex space-x-4">
-                    <a href={mentor.linkedin} target="_blank" rel="noopener noreferrer" className="text-white text-xl hover:text-secondary transition-colors">
+        {/* Mobile scroll container */}
+        <div className="flex overflow-x-auto pb-6 -mx-4 px-4 md:overflow-visible md:pb-0 md:mx-0 scrollbar-hide">
+          <div className="flex flex-nowrap gap-4 md:gap-6 lg:gap-8 md:justify-center w-full">
+            {mentors.map((mentor, index) => (
+              <div key={index} className="card overflow-hidden group w-[280px] sm:w-[300px] md:w-48 lg:w-52 flex-shrink-0 flex flex-col">
+                <div className="relative overflow-hidden rounded-lg mb-3">
+                  <img 
+                    src={mentor.image} 
+                    alt={mentor.name} 
+                    className="w-full h-[280px] sm:h-[300px] md:h-48 lg:h-52 object-cover object-center transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-primary opacity-0 group-hover:opacity-70 transition-opacity duration-300 flex items-center justify-center">
+                    <div className="flex space-x-4">
+                      <a href={mentor.linkedin} target="_blank" rel="noopener noreferrer" className="text-white text-xl hover:text-secondary transition-colors">
+                        <FaLinkedin />
+                      </a>
+                      <a href={mentor.email} className="text-white text-xl hover:text-secondary transition-colors">
+                        <FaEnvelope />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex-grow flex flex-col p-2">
+                  <h3 className="text-base sm:text-lg md:text-base lg:text-lg font-bold text-primary">{mentor.name}</h3>
+                  <p className="text-sm sm:text-base md:text-sm text-secondary font-medium">{mentor.position}</p>
+                  <p className="text-sm sm:text-base md:text-sm text-gray-600 mt-1">{mentor.expertise}</p>
+                  {/* Mobile social links */}
+                  <div className="flex space-x-4 mt-3 md:hidden">
+                    <a 
+                      href={mentor.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer" 
+                      className="text-primary text-lg sm:text-xl hover:text-secondary transition-colors"
+                    >
                       <FaLinkedin />
                     </a>
-                    <a href={mentor.email} className="text-white text-xl hover:text-secondary transition-colors">
+                    <a 
+                      href={mentor.email}
+                      className="text-primary text-lg sm:text-xl hover:text-secondary transition-colors"
+                    >
                       <FaEnvelope />
                     </a>
                   </div>
                 </div>
               </div>
-              <div className="flex-grow flex flex-col">
-                <h3 className="text-sm sm:text-base md:text-lg font-bold text-primary">{mentor.name}</h3>
-                <p className="text-xs sm:text-sm text-secondary font-medium">{mentor.position}</p>
-                <p className="text-xs sm:text-sm text-gray-600 mt-1">{mentor.expertise}</p>
-                {/* Mobile social links */}
-                <div className="flex space-x-4 mt-auto pt-2 md:hidden">
-                  <a 
-                    href={mentor.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer" 
-                    className="text-primary text-sm hover:text-secondary transition-colors"
-                  >
-                    <FaLinkedin />
-                  </a>
-                  <a 
-                    href={mentor.email}
-                    className="text-primary text-sm hover:text-secondary transition-colors"
-                  >
-                    <FaEnvelope />
-                  </a>
-                </div>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </section>
