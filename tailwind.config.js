@@ -28,6 +28,9 @@ export default {
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
       },
+      transitionProperty: {
+        'transform-opacity': 'transform, opacity',
+      }
     },
   },
   plugins: [],

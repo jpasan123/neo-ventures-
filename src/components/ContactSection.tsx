@@ -2,6 +2,10 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
 
 const ContactSection = () => {
+  const handleLocationClick = () => {
+    window.open('https://maps.google.com/?q=NIBM+City+University+Colombo', '_blank');
+  };
+
   return (
     <section className="py-16 bg-light">
       <div className="container mx-auto px-4">
@@ -14,27 +18,39 @@ const ContactSection = () => {
         </div>
 
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="card text-center hover:bg-primary hover:text-white group transition-all duration-300">
+          {/* Email Card */}
+          <a 
+            href="mailto:neoventures@nibm.lk"
+            className="card text-center hover:bg-primary hover:text-white group transition-all duration-300 cursor-pointer"
+          >
             <div className="flex justify-center mb-4">
               <FaEnvelope className="text-4xl text-secondary group-hover:text-white transition-colors" />
             </div>
             <h3 className="text-xl font-bold text-primary group-hover:text-white transition-colors mb-2">Email Us</h3>
-            <a href="mailto:info@neoventures.lk" className="text-gray-700 group-hover:text-white transition-colors hover:underline">
-            keerthi@effectivesolutions.lk
-            </a>
-          </div>
+            <p className="text-gray-700 group-hover:text-white transition-colors">
+              neoventures@nibm.lk
+            </p>
+          </a>
 
-          <div className="card text-center hover:bg-primary hover:text-white group transition-all duration-300">
+          {/* Phone Card */}
+          <a 
+            href="tel:0766210120"
+            className="card text-center hover:bg-primary hover:text-white group transition-all duration-300 cursor-pointer"
+          >
             <div className="flex justify-center mb-4">
               <FaPhone className="text-4xl text-secondary group-hover:text-white transition-colors" />
             </div>
             <h3 className="text-xl font-bold text-primary group-hover:text-white transition-colors mb-2">Call Us</h3>
-            <a href="tel:076 621 0120" className="text-gray-700 group-hover:text-white transition-colors hover:underline">
+            <p className="text-gray-700 group-hover:text-white transition-colors">
               076 621 0120
-            </a>
-          </div>
+            </p>
+          </a>
 
-          <div className="card text-center hover:bg-primary hover:text-white group transition-all duration-300">
+          {/* Location Card */}
+          <div 
+            onClick={handleLocationClick}
+            className="card text-center hover:bg-primary hover:text-white group transition-all duration-300 cursor-pointer"
+          >
             <div className="flex justify-center mb-4">
               <FaMapMarkerAlt className="text-4xl text-secondary group-hover:text-white transition-colors" />
             </div>
