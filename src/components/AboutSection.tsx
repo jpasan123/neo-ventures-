@@ -47,7 +47,7 @@ const AboutSection = () => {
 
         <div className="mt-16 text-center">
           <div className="inline-block p-4 bg-primary text-white rounded-lg">
-            <p className="text-xl font-bold">Application Deadline: 31st June 2025</p>
+            <p className="text-xl font-bold">Application Deadline: 30th June 2025</p>
             <p className="text-lg">Organized by: NIBM The City University | TRACE Expert City</p>
           </div>
         </div>
