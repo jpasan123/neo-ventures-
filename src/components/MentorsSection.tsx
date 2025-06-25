@@ -1,5 +1,11 @@
 import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
+// Simple event logging utility function
+const logEvent = (category: string, action: string) => {
+  console.log(`Analytics event: ${category} - ${action}`);
+  // Implement actual analytics when you add a library
+};
+
 const MentorsSection = () => {
   const mentors = [
     {
@@ -68,10 +74,20 @@ const MentorsSection = () => {
                   />
                   <div className="absolute inset-0 bg-primary opacity-0 group-hover:opacity-70 transition-opacity duration-300 flex items-center justify-center">
                     <div className="flex space-x-4">
-                      <a href={mentor.linkedin} target="_blank" rel="noopener noreferrer" className="text-white text-xl hover:text-secondary transition-colors">
+                      <a 
+                        href={mentor.linkedin} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-white text-xl hover:text-secondary transition-colors"
+                        onClick={() => logEvent('Mentor', 'LinkedIn profile viewed')}
+                      >
                         <FaLinkedin />
                       </a>
-                      <a href={mentor.email} className="text-white text-xl hover:text-secondary transition-colors">
+                      <a 
+                        href={mentor.email} 
+                        className="text-white text-xl hover:text-secondary transition-colors"
+                        onClick={() => logEvent('Mentor', 'Email contact')}
+                      >
                         <FaEnvelope />
                       </a>
                     </div>

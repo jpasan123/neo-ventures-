@@ -1,9 +1,23 @@
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+// Analytics function implementation
+const logEvent = (category: string, action: string) => {
+  // Replace with actual analytics implementation when available
+  console.log(`Analytics: ${category} - ${action}`);
+};
 
 
 const ContactSection = () => {
   const handleLocationClick = () => {
+    logEvent('Contact', 'Location clicked');
     window.open('https://maps.google.com/?q=NIBM+City+University+Colombo', '_blank');
+  };
+
+  const handleEmailClick = () => {
+    logEvent('Contact', 'Email clicked');
+  };
+
+  const handlePhoneClick = () => {
+    logEvent('Contact', 'Phone clicked');
   };
 
   return (
@@ -21,6 +35,7 @@ const ContactSection = () => {
           {/* Email Card */}
           <a 
             href="mailto:neoventures@nibm.lk"
+            onClick={handleEmailClick}
             className="card text-center hover:bg-primary hover:text-white group transition-all duration-300 cursor-pointer"
           >
             <div className="flex justify-center mb-4">
@@ -35,6 +50,7 @@ const ContactSection = () => {
           {/* Phone Card */}
           <a 
             href="tel:0766210120"
+            onClick={handlePhoneClick}
             className="card text-center hover:bg-primary hover:text-white group transition-all duration-300 cursor-pointer"
           >
             <div className="flex justify-center mb-4">

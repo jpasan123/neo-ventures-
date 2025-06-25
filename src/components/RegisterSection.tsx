@@ -1,8 +1,13 @@
 import { FaQrcode, FaArrowRight, FaCalendarAlt, FaMapMarkerAlt } from 'react-icons/fa';
+import { logEvent } from '../analytics';
 
 
 const RegisterSection = () => {
   const registrationLink = "https://shorturl.at/vKYKQ";
+
+  const handleRegisterClick = () => {
+    logEvent('Registration', 'Register button clicked');
+  };
 
   return (
     <section id="register" className="py-20 bg-primary text-white">
@@ -30,6 +35,7 @@ const RegisterSection = () => {
                 Scan the QR code with your smartphone camera to access the registration form
               </p>
               <a 
+                onClick={handleRegisterClick}
                 href={registrationLink}
                 target="_blank"
                 rel="noopener noreferrer" 

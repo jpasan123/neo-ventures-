@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { initGA, logPageView } from './analytics';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
@@ -10,6 +11,12 @@ import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
 function App() {
+  useEffect(() => {
+    // Replace GA_MEASUREMENT_ID with your actual Google Analytics measurement ID
+    initGA('G-0PKP7E8KPW');
+    logPageView();
+  }, []);
+
   return (
     <div className="font-sans">
       <Header />
