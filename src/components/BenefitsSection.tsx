@@ -2,11 +2,7 @@ import { FaMedal, FaGraduationCap, FaMoneyBillWave, FaNetworkWired, FaTools, FaR
 
 const BenefitsSection = () => {
   const benefits = [
-    {
-      icon: <FaMedal className="text-4xl text-secondary" />,
-      title: "Compete for LKR 350,000+ in prizes",
-      description: "Win funding & startup resources to kickstart your business"
-    },
+  
     {
       icon: <FaGraduationCap className="text-4xl text-secondary" />,
       title: "Startup Training & Mentorship",
