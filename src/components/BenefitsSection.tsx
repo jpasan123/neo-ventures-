@@ -28,6 +28,12 @@ const BenefitsSection = () => {
       title: "Idea Validation",
       description: "Test your concept with industry experts and potential customers"
     }
+    ,
+    {
+      icon: <FaMedal className="text-4xl text-secondary" />,
+      title: "Recognition & Awards",
+      description: "Showcase your startup and gain recognition in the entrepreneurial community"
+    }
   ];
 
   return (
