@@ -24,13 +24,13 @@ const HeroSection = () => {
       subtitle: "Neo Ventures - The Startup Incubator for Future Entrepreneurs",
       icon: <FaRocket className="text-4xl text-secondary mb-8 mt-16" /> // Added mt-16 and increased mb-4 to mb-8
     },
-    {
-      id: 2,
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      title: "Win from a Prize Pool of LKR 350,000+",
-      subtitle: "Gain Expert Mentorship & Exclusive Access to Industry Leaders",
-      icon: <FaLightbulb className="text-4xl text-secondary mb-8 mt-16" /> // Added mt-16 and increased mb-4 to mb-8
-    },
+    // {
+    //   id: 2,
+    //   image: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    //   title: "Win from a Prize Pool of LKR 350,000+",
+    //   subtitle: "Gain Expert Mentorship & Exclusive Access to Industry Leaders",
+    //   icon: <FaLightbulb className="text-4xl text-secondary mb-8 mt-16" /> // Added mt-16 and increased mb-4 to mb-8
+    // },
     {
       id: 3,
       image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",

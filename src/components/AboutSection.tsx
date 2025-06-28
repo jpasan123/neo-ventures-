@@ -20,7 +20,7 @@ const AboutSection = () => {
             </div>
             <h3 className="text-xl font-bold text-primary mb-3">Win Big Prizes</h3>
             <p className="text-gray-700">
-              Compete for LKR 350,000+ in prizes, including cash, startup funding, and exclusive resources to bring your innovative ideas to reality.
+              Compete for a prestigious prize pool worth over half a million rupees, including seed funding, mentorship opportunities, and exclusive resources to transform your vision into reality.
             </p>
           </div>
 

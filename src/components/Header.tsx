@@ -23,9 +23,9 @@ const Header = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <img 
-            src="https://i.ibb.co/YBX0PzTd/466794013-122095479950624948-5743911692005365691-n.jpg" 
+            src="https://i.ibb.co/WpHfdYpr/Logo-Line.png" 
             alt="Neo Ventures Logo" 
-            className="h-8 w-28 sm:h-10 sm:w-32 md:h-18 md:w-48 lg:h-18 lg:w-40 object-cover rounded-lg"
+            className="h-8 w-10 sm:h-20 sm:w-32 md:h-18 md:w-60 lg:h-30 lg:w-70 object-cover rounded-lg"
           />
         </div>
 
