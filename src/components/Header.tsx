@@ -19,13 +19,13 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'}`}>
-      <div className="container mx-auto px-4 flex justify-between items-center">
+    <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-0.5' : 'bg-transparent py-1'}`}>
+      <div className="container mx-auto px-4 flex justify-between items-center h-16">
         <div className="flex items-center">
           <img 
             src="https://i.ibb.co/WpHfdYpr/Logo-Line.png" 
             alt="Neo Ventures Logo" 
-            className="h-8 w-10 sm:h-20 sm:w-32 md:h-18 md:w-60 lg:h-30 lg:w-70 object-cover rounded-lg"
+            className="w-28 h-auto md:w-36 lg:w-48 object-contain"
           />
         </div>
 
