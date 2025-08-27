@@ -11,6 +11,12 @@ const EventGallerySection = () => {
   const galleryImages = [
     {
       id: 1,
+      src: "https://i.ibb.co/fzZqLkFW/Whats-App-Image-2025-08-26-at-15-04-48-2513f95a.jpg",
+      alt: "Prime Minister Harini's arrival at Neo Ventures",
+      size: "large"
+    },
+    {
+      id: 2,
       src: "https://i.ibb.co/Fbzyyn4W/PXL-20250619-134846431-MP.jpg",
       alt: "Startup Event Opening Session",
       size: "large"
