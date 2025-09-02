@@ -22,88 +22,172 @@ const EventGallerySection = () => {
       size: "large"
     },
     {
-      id: 2,
+      id: 3,
       src: "https://i.ibb.co/pvQmzcm7/PXL-20250619-135948666.jpg",
       alt: "Panel Discussion",
       size: "medium"
     },
     {
-      id: 3,
+      id: 4,
       src: "https://i.ibb.co/XZZxFBrC/PXL-20250619-141135574.jpg",
       alt: "Mentorship Session",
       size: "large"
     },
     {
-      id: 4,
+      id: 5,
       src: "https://i.ibb.co/yc4qyLmV/PXL-20250619-142844922.jpg",
       alt: "Innovation Workshop",
       size: "medium"
     },
     {
-      id: 5,
+      id: 6,
       src: "https://i.ibb.co/RGKdZp7V/PXL-20250619-143435701.jpg",
       alt: "Startup Presentations",
       size: "large"
     },
     {
-      id: 6,
+      id: 7,
       src: "https://i.ibb.co/nsxxNJVH/PXL-20250619-143643837-MP.jpg",
       alt: "Networking Session",
       size: "medium"
     },
     {
-      id: 7,
+      id: 8,
       src: "https://i.ibb.co/3yWz9QTy/PXL-20250619-133528263.jpg",
       alt: "Entrepreneurship Talk",
       size: "medium"
     },
     {
-      id: 8,
+      id: 9,
       src: "https://i.ibb.co/Myh78Gp5/PXL-20250619-134417059-MP.jpg",
       alt: "Team Building Activity",
       size: "large"
     },
     {
-      id: 9,
+      id: 10,
       src: "https://i.ibb.co/KTJGPnx/PXL-20250619-134846908.jpg",
       alt: "Interactive Session",
       size: "medium"
     },
     {
-      id: 10,
+      id: 11,
       src: "https://i.ibb.co/39L5Wf17/PXL-20250619-134906492.jpg",
       alt: "Startup Showcase",
       size: "large"
     },
     {
-      id: 11,
+      id: 12,
       src: "https://i.ibb.co/8nsLQ80V/PXL-20250619-135942311.jpg",
       alt: "Mentor Meeting",
       size: "medium"
     },
     {
-      id: 12,
+      id: 13,
       src: "https://i.ibb.co/TBZpGzx6/PXL-20250619-141749877.jpg",
       alt: "Group Discussion",
       size: "medium"
     },
     {
-      id: 13,
+      id: 14,
       src: "https://i.ibb.co/7xVB203Z/PXL-20250619-151209061-MP.jpg",
       alt: "Feedback Session",
       size: "large"
     },
     {
-      id: 14,
+      id: 15,
       src: "https://i.ibb.co/Xf9jDnz2/PXL-20250619-133528263.jpg",
       alt: "Collaborative Planning",
-      size: "medium",
-      specialStyle: "object-contain bg-gray-100" // Adding special styling for this image
+      size: "medium"
     },
     {
-      id: 15,
+      id: 16,
       src: "https://i.ibb.co/zHsmjxTm/PXL-20250619-141135343.jpg",
       alt: "Innovation Workshop",
+      size: "large"
+    },
+    // New images added
+    {
+      id: 17,
+      src: "https://i.ibb.co/v4TFRhMp/540162943-1081330527484009-8357277455442181365-n.jpg",
+      alt: "Event Presentation",
+      size: "large"
+    },
+    {
+      id: 18,
+      src: "https://i.ibb.co/HLgBkPY5/538923688-1081330437484018-7873947007329935529-n.jpg",
+      alt: "Startup Demo Session",
+      size: "medium"
+    },
+    {
+      id: 19,
+      src: "https://i.ibb.co/xKRQZPdR/540195006-1081330490817346-9141176000612385710-n.jpg",
+      alt: "Networking and Collaboration",
+      size: "medium"
+    },
+    {
+      id: 20,
+      src: "https://i.ibb.co/nHchnn0/540007368-1081330244150704-6901415683120575851-n.jpg",
+      alt: "Innovation Workshop",
+      size: "large"
+    },
+    {
+      id: 21,
+      src: "https://i.ibb.co/84tg5F5H/540450864-1081330394150689-2919333570632295368-n.jpg",
+      alt: "Team Collaboration",
+      size: "medium"
+    },
+    {
+      id: 22,
+      src: "https://i.ibb.co/5WynNLdD/539498086-1081330324150696-9035991762131647291-n.jpg",
+      alt: "Mentorship Session",
+      size: "large"
+    },
+    {
+      id: 23,
+      src: "https://i.ibb.co/bjrdV8NH/540715533-1081330280817367-7003410195379755226-n.jpg",
+      alt: "Event Activities",
+      size: "medium"
+    },
+    {
+      id: 24,
+      src: "https://i.ibb.co/SXfy5SC5/539196882-1081330454150683-6560476563386399936-n.jpg",
+      alt: "Group Learning Session",
+      size: "medium"
+    },
+    {
+      id: 25,
+      src: "https://i.ibb.co/7dyZwDQw/540269688-1081330320817363-7886258933683587952-n.jpg",
+      alt: "Startup Pitch Session",
+      size: "large"
+    },
+    {
+      id: 26,
+      src: "https://i.ibb.co/99nyQ4mr/540446423-1081330340817361-2447148282599039586-n.jpg",
+      alt: "Interactive Discussion",
+      size: "medium"
+    },
+    {
+      id: 27,
+      src: "https://i.ibb.co/WWYxX8qN/540429698-1081330224150706-5589531965144684044-n.jpg",
+      alt: "Knowledge Sharing",
+      size: "medium"
+    },
+    {
+      id: 28,
+      src: "https://i.ibb.co/xt7cqjT0/540766874-1081330207484041-503317448735530415-n.jpg",
+      alt: "Event Coordination",
+      size: "large"
+    },
+    {
+      id: 29,
+      src: "https://i.ibb.co/Lh9Q2b07/539586767-1081330147484047-7189822994197807318-n.jpg",
+      alt: "Startup Showcase",
+      size: "medium"
+    },
+    {
+      id: 30,
+      src: "https://i.ibb.co/qZZ1M3H/539597711-1081330590817336-5476229149332770859-n.jpg",
+      alt: "Event Networking",
       size: "large"
     }
   ];
@@ -132,8 +216,8 @@ const EventGallerySection = () => {
       y: 0,
       duration: 0.6,
       stagger: {
-        amount: 1.2,
-        grid: [3, 4],
+        amount: 1.8,
+        grid: [3, 10],
         from: "center"
       },
       ease: "power3.out"
@@ -158,14 +242,14 @@ const EventGallerySection = () => {
 
         <div 
           ref={galleryRef} 
-          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-3"
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-3"
         >
           {galleryImages.map((image) => (
             <div
               key={image.id}
               className={`gallery-item relative overflow-hidden rounded-lg group ${
                 image.size === 'large' 
-                  ? 'sm:col-span-2 md:col-span-1 h-[280px] sm:h-[400px] md:h-[450px]' 
+                  ? 'sm:col-span-2 md:col-span-1 lg:col-span-2 h-[280px] sm:h-[400px] md:h-[450px]' 
                   : 'h-[260px] sm:h-[320px] md:h-[380px]'
               }`}
             >
