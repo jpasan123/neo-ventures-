@@ -98,13 +98,13 @@ const MentorsSection = () => {
           </p>
         </div>
 
-        {/* Mobile scroll container */}
-        <div className="flex overflow-x-auto pb-6 -mx-4 px-4 md:overflow-visible md:pb-0 md:mx-0 scrollbar-hide">
-          <div className="flex flex-nowrap gap-4 md:gap-6 lg:gap-8 md:justify-center w-full">
+        {/* Mobile scroll container, Desktop grid */}
+        <div className="overflow-x-auto pb-6 -mx-4 px-4 md:overflow-visible md:pb-0 md:mx-0 scrollbar-hide">
+          <div className="flex flex-nowrap gap-4 md:grid md:grid-cols-3 lg:grid-cols-6 md:gap-6 lg:gap-6 xl:gap-8">
             {mentors.map((mentor, index) => (
               <div 
                 key={index} 
-                className={`card overflow-hidden group w-[280px] sm:w-[300px] md:w-48 lg:w-52 flex-shrink-0 flex flex-col transition-all duration-700 ${
+                className={`card overflow-hidden group w-[280px] sm:w-[300px] md:w-full flex-shrink-0 flex flex-col transition-all duration-700 ${
                   isVisible 
                     ? 'opacity-100 translate-x-0' 
                     : 'opacity-0 translate-x-[-50px]'
